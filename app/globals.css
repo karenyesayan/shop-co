@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+::after,
+::before,
+::backdrop,
+::file-selector-button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0 solid;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  vertical-align: middle;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --muted-foreground: 0 0% 45.1%;
+}
+
+body {
+  background: var(--background);
+  color: #000000;
+  font-size: 16px;
+  font-family: "Satoshi", sans-serif;
+  font-weight: normal;
+  line-height: 1rem;
+}
+
+.fadeInUp {
+  position: sticky;
+  top: 0;
+}
+
+@keyframes fade-out {
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes backdrop-fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 20%;
+  }
+}
+
+@keyframes backdrop-fade-out {
+  from {
+    opacity: 20%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
+
+@keyframes scale-up {
+  from {
+    opacity: 0%;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-down {
+  from {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0%;
+    transform: translateY(1rem);
+  }
+}
+
+@keyframes scale-down-48 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.95);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide {
+  100% {
+    translate: 100% 0;
+  }
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
