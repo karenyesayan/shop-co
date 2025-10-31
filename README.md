@@ -26,7 +26,7 @@
 
 ## Demo
 
-You can view a fully working demo at [shop-co-b1.vercel.app]([https://](https://shop-co-b1.vercel.app/)).
+You can view a fully working demo at [shop-co-b1.vercel.app](https://shop-co-b1.vercel.app/).
 
 ## Design and template
 
