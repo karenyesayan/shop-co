@@ -1,4 +1,4 @@
-<a href="#">
+<a href="https://shop-co-b1.vercel.app/">
   <img alt="Shop.co E-commerce Website" src="https://i.imgur.com/R05aJST.png">
   <h1 align="center">Shop.co E-commerce Website</h1>
 </a>
@@ -26,7 +26,7 @@
 
 ## Demo
 
-You can view a fully working demo at [vercel](https://).
+You can view a fully working demo at [shop-co-b1.vercel.app]([https://](https://shop-co-b1.vercel.app/)).
 
 ## Design and template
 
